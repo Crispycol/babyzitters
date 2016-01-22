@@ -1,0 +1,135 @@
+body {
+    background-image: url("http://i.imgur.com/hJbYzkF.jpg");
+    background-color: #F79CDA;
+    font-size: 1em;
+}
+
+header {
+    background-color: #EAEAEA;
+    padding: 5px;
+    font-size: 2em;
+    float: inherit;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align:center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8BC6C6;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #8B69C6;
+}
+
+.active {
+    background-color: #FF6B90;
+}
+
+main {
+    width: 900px;
+    overflow: hidden;
+}
+
+.first {
+    width: 600px;
+    float:left;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 35px;
+    padding-left: 10px;
+    background-color: #EAEAEA;
+}
+
+.second {
+    height: 410px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    background-color: #EAEAEA;
+}
+
+.third {
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.fourth {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #EAEAEA;
+}
+
+.afspraak {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.feedback {
+    float: right;
+    padding: 120px;
+    margin-right: 30px;
+    margin-top: 60px;
+    background-color: #EAEAEA;
+}
+
+.container {
+    background: #FE64A3;
+    align-content: center;
+    width:960px;
+    margin-right: 150px;
+    margin-left: 160px;
+    padding: 30px;
+}
+
+.babysitter {
+    background: #EAEAEA;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h2 {
+    padding: 0px;
+}
+
+p {
+    font-size: 1.3em;
+    color: dimgray;
+}
+
+ footer {
+     color: gainsboro;
+ }
